@@ -14,9 +14,12 @@ As regras de quando delegar estão em [CLAUDE.md](CLAUDE.md).
 ## Instalar em um PC novo
 
 ```powershell
-git clone https://github.com/<seu-usuario>/claude-config.git $HOME\claude-config
+git clone https://github.com/ronaldojr1804/claude-config.git $HOME\claude-config
 powershell -ExecutionPolicy Bypass -File $HOME\claude-config\install.ps1
 ```
+
+Funciona em qualquer PC, sem login, porque o repositório é público.
+Quer adaptar as regras para você? Faça um fork e troque `ronaldojr1804` pelo seu usuário nos comandos acima.
 
 ## Atualizar
 
